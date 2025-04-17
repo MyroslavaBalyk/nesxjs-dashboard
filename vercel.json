@@ -1,8 +1,5 @@
 {
-  "framework": "nextjs",
-  "installCommand": "npm install",
-  "buildCommand": "npm run build",
-  "outputDirectory": ".next",
-  "ignoreCommand": "npx --no -- turbo-ignore",
-  "devCommand": "npm run dev"
+  "version": 2,
+  "buildCommand": "./build.sh",
+  "installCommand": "echo 'Using npm explicitly' && npm install"
 }
